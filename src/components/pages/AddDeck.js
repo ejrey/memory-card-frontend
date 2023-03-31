@@ -19,7 +19,7 @@ const AddDeck = () => {
     e.preventDefault();
     try {
       await axios.post(
-        "https://at0yw2tnya.execute-api.us-east-1.amazonaws.com/dev/adddeck",
+        "https://aqk0rsung8.execute-api.us-east-1.amazonaws.com/dev/adddeck",
         {
           title: title,
         },
