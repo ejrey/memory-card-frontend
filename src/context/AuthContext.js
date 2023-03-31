@@ -12,7 +12,7 @@ const AuthContextProvider = (props) => {
 
     if (token) {
       const response = await axios.get(
-        `https://at0yw2tnya.execute-api.us-east-1.amazonaws.com/dev/isuserloggedin`,
+        `https://aqk0rsung8.execute-api.us-east-1.amazonaws.com/dev/isuserloggedin`,
         {
           headers: { Authorization: `Bearer ${token}` },
         }
